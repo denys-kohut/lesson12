@@ -1,0 +1,67 @@
+.hero-section {
+    display: flex;
+    align-items: center;
+
+    &__title {
+        font-size: 64px;
+        max-width: 331px;
+        line-height: 1;
+        margin-bottom: 90px;
+        translate: 0px;
+        transition: rotate 0.3s ease;
+        text-shadow: 0px 0px 8px black;
+        box-shadow: 17px 17px 19px 7px red, -11px -16px 20px 20px black;
+        background: linear-gradient(164deg, #000 0%, #ff0000 100%);
+        animation: 0.5s linear infinite forwards signal;
+
+        &:hover {
+            color: red;
+        }
+
+        &_bold {
+            font-weight: 800;
+        }
+        
+        &_darker {
+            color: #333;
+        }
+    }
+
+    &__buttons {
+        margin-bottom: 90px;
+        color: red;
+    }
+
+    &__image {
+        position: relative;
+        background-image: url("../../img/hero.jpeg");
+        background-size: cover;
+        width: 770px;
+        height: 829px;
+        margin-left: 69px;
+        display: flex;
+        flex-direction: column;
+        animation: 3s ease-in forwards blur;
+
+        &-button {
+            margin-top: auto;
+            /* position: absolute; */
+            bottom: -1px;
+            left: -1px;
+            min-width: 222px;
+            padding: 29px 50px;
+            background-color: transparent;
+            border: 0;
+            width: 100%;
+            transition: left 0.5s ease;
+            /* transition: <property> <time-for-animation-duration> <time-for-delay> */
+        }
+    }
+}
+
+.about {
+    &__left-section{}
+    &__right-section{
+        &-title {}
+    }
+}

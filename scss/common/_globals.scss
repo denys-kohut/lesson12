@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 300;
+    color: #BDBDBD;
+}
+
+.global-wrapper {
+    max-width: calc(1440px - 135px * 2);
+    margin: 0 auto;
+}
